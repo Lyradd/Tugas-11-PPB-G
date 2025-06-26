@@ -1,8 +1,7 @@
-﻿# Tugas-11-PPB-G
+# Tugas-11-PPB-G
 # Starbucks Rewards App Clone (Jetpack Compose)
 
-![Starbucks App Banner](![Screenshot_20250627_011742_starbuck membership](![Screenshot_20250627_011742_starbuck membership (1)](https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e)
-
+![Starbucks App Banner](https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e)
 
 A concept clone of the Starbucks mobile application, built entirely with **Jetpack Compose** for the Android platform. This project demonstrates a modern Android architecture using Kotlin, Coroutines, and the MVVM pattern to create a feature-rich, interactive, and visually appealing user interface.
 
@@ -16,7 +15,7 @@ This application simulates the core functionalities of the Starbucks Rewards pro
 - **🛒 Shopping Cart**: A fully functional cart where users can review items, adjust quantities, see the total price, and proceed to checkout.
 - **💳 Payment & Balance**: Simulates payment by deducting from a user's balance. Includes a "Top-Up" feature with multiple payment method options.
 - **⭐ Rewards System**: A dedicated screen to view available rewards. Users can redeem their rewards, which updates their status.
-- ** FAVORITES**: Users can mark products as favorites for quick access later from their profile or a dedicated favorites screen.
+- **❤️ Favorites**: Users can mark products as favorites for quick access later from their profile or a dedicated favorites screen.
 - **📜 Order History**: A comprehensive list of all past orders, showing items, total price, and date.
 - **📍 Store Locator**: A list of nearby stores, displaying their status (Open/Closed) and unique special menu items.
 - **👤 Profile Management**: A central hub for accessing payment methods, order history, favorites, settings, and help.
@@ -35,14 +34,9 @@ This application simulates the core functionalities of the Starbucks Rewards pro
 
 | Home Screen (Dark) | Order Screen | Product Detail |
 | :---: |:---:|:---:|
-| ![Home Screen](https://placehold.co/300x650/0D1B2A/FFFFFF?text=Home+Screen) | ![Order Screen](![Screenshot_20250627_012237_starbuck membership](https://github.com/user-attachments/assets/192cbc63-b955-4f1e-922d-75d50ea493df)
- | ![Product Detail](![Screenshot_20250627_012206_starbuck membership](https://github.com/user-attachments/assets/d1155f8e-df50-4c3c-aa99-0c8cea86d156)
- |
+| <img src="https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e" alt="Home Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/192cbc63-b955-4f1e-922d-75d50ea493df" alt="Order Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/d1155f8e-df50-4c3c-aa99-0c8cea86d156" alt="Product Detail" width="250"/> |
 | **Cart Screen** | **QR Scanner** | **Profile Screen** |
-| ![Cart Screen](![Screenshot_20250627_012229_starbuck membership](https://github.com/user-attachments/assets/1ee24a22-d60a-494c-a21b-d8dd554d54ec)
- | ![QR Scanner](![Screenshot_20250627_012021_starbuck membership](https://github.com/user-attachments/assets/28fed553-d995-4271-b4bf-68d74bfea5ca)
-| ![Profile Screen](![Screenshot_20250627_012258_starbuck membership](https://github.com/user-attachments/assets/f410e3b2-b7c2-43fa-b298-d9d16f178dc8)
- |
+| <img src="https://github.com/user-attachments/assets/1ee24a22-d60a-494c-a21b-d8dd554d54ec" alt="Cart Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/28fed553-d995-4271-b4bf-68d74bfea5ca" alt="QR Scanner" width="250"/> | <img src="https://github.com/user-attachments/assets/f410e3b2-b7c2-43fa-b298-d9d16f178dc8" alt="Profile Screen" width="250"/> |
 
 ---
 
