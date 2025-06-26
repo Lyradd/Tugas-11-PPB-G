@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Redesign"
+rootProject.name = "starbuck membership"
 include(":app")
  
