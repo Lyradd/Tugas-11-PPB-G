@@ -1,7 +1,7 @@
-![image](https://github.com/user-attachments/assets/ce61709c-7a62-456d-ad34-9cd1c0b4ec9c)﻿# Tugas-11-PPB-G
+﻿# Tugas-11-PPB-G
 # Starbucks Rewards App Clone (Jetpack Compose)
 
-![Starbucks App Banner](![Screenshot_20250627_011742_starbuck membership](https://github.com/user-attachments/assets/895b6c2c-47b9-4433-bfa7-2cc9e4f1b5ff)
+![Starbucks App Banner](![Screenshot_20250627_011742_starbuck membership](![Screenshot_20250627_011742_starbuck membership (1)](https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e)
 
 
 A concept clone of the Starbucks mobile application, built entirely with **Jetpack Compose** for the Android platform. This project demonstrates a modern Android architecture using Kotlin, Coroutines, and the MVVM pattern to create a feature-rich, interactive, and visually appealing user interface.
@@ -35,9 +35,14 @@ This application simulates the core functionalities of the Starbucks Rewards pro
 
 | Home Screen (Dark) | Order Screen | Product Detail |
 | :---: |:---:|:---:|
-| ![Home Screen](https://placehold.co/300x650/0D1B2A/FFFFFF?text=Home+Screen) | ![Order Screen](https://placehold.co/300x650/0D1B2A/FFFFFF?text=Order+Screen) | ![Product Detail](https://placehold.co/300x650/0D1B2A/FFFFFF?text=Product+Detail) |
+| ![Home Screen](https://placehold.co/300x650/0D1B2A/FFFFFF?text=Home+Screen) | ![Order Screen](![Screenshot_20250627_012237_starbuck membership](https://github.com/user-attachments/assets/192cbc63-b955-4f1e-922d-75d50ea493df)
+ | ![Product Detail](![Screenshot_20250627_012206_starbuck membership](https://github.com/user-attachments/assets/d1155f8e-df50-4c3c-aa99-0c8cea86d156)
+ |
 | **Cart Screen** | **QR Scanner** | **Profile Screen** |
-| ![Cart Screen](https://placehold.co/300x650/0D1B2A/FFFFFF?text=Cart+Screen) | ![QR Scanner](https://placehold.co/300x650/0D1B2A/FFFFFF?text=QR+Scanner) | ![Profile Screen](https://placehold.co/300x650/0D1B2A/FFFFFF?text=Profile+Screen) |
+| ![Cart Screen](![Screenshot_20250627_012229_starbuck membership](https://github.com/user-attachments/assets/1ee24a22-d60a-494c-a21b-d8dd554d54ec)
+ | ![QR Scanner](![Screenshot_20250627_012021_starbuck membership](https://github.com/user-attachments/assets/28fed553-d995-4271-b4bf-68d74bfea5ca)
+| ![Profile Screen](![Screenshot_20250627_012258_starbuck membership](https://github.com/user-attachments/assets/f410e3b2-b7c2-43fa-b298-d9d16f178dc8)
+ |
 
 ---
 
