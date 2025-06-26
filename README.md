@@ -37,6 +37,12 @@ This application simulates the core functionalities of the Starbucks Rewards pro
 | <img src="https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e" alt="Home Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/192cbc63-b955-4f1e-922d-75d50ea493df" alt="Order Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/d1155f8e-df50-4c3c-aa99-0c8cea86d156" alt="Product Detail" width="250"/> |
 | **Cart Screen** | **QR Scanner** | **Profile Screen** |
 | <img src="https://github.com/user-attachments/assets/1ee24a22-d60a-494c-a21b-d8dd554d54ec" alt="Cart Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/28fed553-d995-4271-b4bf-68d74bfea5ca" alt="QR Scanner" width="250"/> | <img src="https://github.com/user-attachments/assets/f410e3b2-b7c2-43fa-b298-d9d16f178dc8" alt="Profile Screen" width="250"/> |
+| **Notifications** | **Rewards Screen** | **Store Locator** |
+| <img src="https://github.com/user-attachments/assets/a3c60c08-a275-4a92-b2af-ccb29fa1c28b" alt="Notifications" width="250"/> | <img src="https://github.com/user-attachments/assets/16bc34d7-91e0-4157-9824-de9325fe900b" alt="Rewards Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/bda596f4-ed76-4f33-a447-a6d189b3f509" alt="Store Locator" width="250"/> |
+| **Payment Methods** | **Order History** | **Settings** |
+| <img src="https://github.com/user-attachments/assets/9e52695d-bcae-4904-a58b-ee9be7cde6f9" alt="Payment Methods" width="250"/> | <img src="https://github.com/user-attachments/assets/fc2930b3-37df-450d-9dd0-7151c5675f2e" alt="Order History" width="250"/> | <img src="https://github.com/user-attachments/assets/945c70ce-fd7b-4621-a70e-88675bfdd780" alt="Settings" width="250"/> |
+| **Help & Support** | | |
+| <img src="https://github.com/user-attachments/assets/0a4bb988-3692-4e2e-b448-fb32d7b0d222" alt="Help & Support" width="250"/> | | |
 
 ---
 
