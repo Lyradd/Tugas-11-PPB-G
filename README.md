@@ -1,123 +1,123 @@
 # Tugas-11-PPB-G
 # Starbucks Rewards App Clone (Jetpack Compose)
 
-![Starbucks App Banner](https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e)
+![Spanduk Aplikasi Starbucks](https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e)
 
-A concept clone of the Starbucks mobile application, built entirely with **Jetpack Compose** for the Android platform. This project demonstrates a modern Android architecture using Kotlin, Coroutines, and the MVVM pattern to create a feature-rich, interactive, and visually appealing user interface.
+Sebuah klon konsep dari aplikasi seluler Starbucks, yang dibangun sepenuhnya dengan **Jetpack Compose** untuk platform Android. Proyek ini mendemonstrasikan arsitektur Android modern menggunakan Kotlin, Coroutine, dan pola MVVM untuk menciptakan antarmuka pengguna yang kaya fitur, interaktif, dan menarik secara visual.
 
-## 🌟 Features
+## 🌟 Fitur
 
-This application simulates the core functionalities of the Starbucks Rewards program, offering a seamless user experience.
+Aplikasi ini menyimulasikan fungsionalitas inti dari program Starbucks Rewards, menawarkan pengalaman pengguna yang mulus.
 
-- **🏠 Home Screen**: A dynamic dashboard displaying a welcome message, user's membership card with animated star count, quick actions, featured offers, and recent orders.
-- **☕ Order Menu**: A searchable list of all available products, including store-specific specials.
-- **🛍️ Product Details & Customization**: Users can view product details and customize their drinks by selecting different sizes and milk options before adding them to the cart.
-- **🛒 Shopping Cart**: A fully functional cart where users can review items, adjust quantities, see the total price, and proceed to checkout.
-- **💳 Payment & Balance**: Simulates payment by deducting from a user's balance. Includes a "Top-Up" feature with multiple payment method options.
-- **⭐ Rewards System**: A dedicated screen to view available rewards. Users can redeem their rewards, which updates their status.
-- **❤️ Favorites**: Users can mark products as favorites for quick access later from their profile or a dedicated favorites screen.
-- **📜 Order History**: A comprehensive list of all past orders, showing items, total price, and date.
-- **📍 Store Locator**: A list of nearby stores, displaying their status (Open/Closed) and unique special menu items.
-- **👤 Profile Management**: A central hub for accessing payment methods, order history, favorites, settings, and help.
-- **📷 QR Code Scanner**:
-    - Displays a user's QR code for in-store scanning.
-    - Integrates **CameraX** and **ML Kit** to open a live camera feed and scan QR codes for payments.
-    - Handles camera permissions gracefully.
-- **🎨 Dual-Theme Support**: Seamlessly switch between a sleek **Dark Mode** and a classic **Light Mode** from the settings screen.
-- **🔔 Notifications**: A dedicated screen to view all app-related notifications and promotions.
+- **🏠 Layar Beranda**: Dasbor dinamis yang menampilkan pesan selamat datang, kartu keanggotaan pengguna dengan jumlah bintang yang dianimasikan, tindakan cepat, penawaran unggulan, dan pesanan terkini.
+- **☕ Menu Pesanan**: Daftar semua produk yang tersedia yang dapat dicari, termasuk menu spesial toko.
+- **🛍️ Detail & Kustomisasi Produk**: Pengguna dapat melihat detail produk dan menyesuaikan minuman mereka dengan memilih ukuran dan pilihan susu yang berbeda sebelum menambahkannya ke keranjang.
+- **🛒 Keranjang Belanja**: Keranjang yang berfungsi penuh di mana pengguna dapat meninjau item, menyesuaikan jumlah, melihat total harga, dan melanjutkan ke pembayaran.
+- **💳 Pembayaran & Saldo**: Menyimulasikan pembayaran dengan mengurangi saldo pengguna. Termasuk fitur "Isi Ulang" dengan beberapa pilihan metode pembayaran.
+- **⭐ Sistem Hadiah**: Layar khusus untuk melihat hadiah yang tersedia. Pengguna dapat menukarkan hadiah mereka, yang akan memperbarui status mereka.
+- **❤️ Favorit**: Pengguna dapat menandai produk sebagai favorit untuk akses cepat nanti dari profil mereka atau layar favorit khusus.
+- **📜 Riwayat Pesanan**: Daftar komprehensif dari semua pesanan sebelumnya, yang menampilkan item, total harga, dan tanggal.
+- **📍 Pencari Toko**: Daftar toko terdekat, yang menampilkan statusnya (Buka/Tutup) dan item menu spesial yang unik.
+- **👤 Manajemen Profil**: Pusat utama untuk mengakses metode pembayaran, riwayat pesanan, favorit, pengaturan, dan bantuan.
+- **📷 Pemindai Kode QR**:
+    - Menampilkan kode QR pengguna untuk pemindaian di dalam toko.
+    - Mengintegrasikan **CameraX** dan **ML Kit** untuk membuka umpan kamera langsung dan memindai kode QR untuk pembayaran.
+    - Menangani izin kamera dengan baik.
+- **🎨 Dukungan Tema Ganda**: Beralih dengan mulus antara **Mode Gelap** yang elegan dan **Mode Terang** klasik dari layar pengaturan.
+- **🔔 Notifikasi**: Layar khusus untuk melihat semua notifikasi dan promosi terkait aplikasi.
 
 ---
 
-## 📸 Screenshots
+## 📸 Cuplikan Layar
 
-*(Here you can add your own screenshots or GIFs of the app in action)*
+*(Anda dapat menambahkan cuplikan layar atau GIF Anda sendiri dari aplikasi yang sedang beraksi di sini)*
 
-| Home Screen (Dark) | Order Screen | Product Detail |
+| Layar Beranda (Gelap) | Layar Pesanan | Detail Produk |
 | :---: |:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e" alt="Home Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/192cbc63-b955-4f1e-922d-75d50ea493df" alt="Order Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/d1155f8e-df50-4c3c-aa99-0c8cea86d156" alt="Product Detail" width="250"/> |
-| **Cart Screen** | **QR Scanner** | **Profile Screen** |
-| <img src="https://github.com/user-attachments/assets/1ee24a22-d60a-494c-a21b-d8dd554d54ec" alt="Cart Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/28fed553-d995-4271-b4bf-68d74bfea5ca" alt="QR Scanner" width="250"/> | <img src="https://github.com/user-attachments/assets/f410e3b2-b7c2-43fa-b298-d9d16f178dc8" alt="Profile Screen" width="250"/> |
-| **Notifications** | **Rewards Screen** | **Store Locator** |
-| <img src="https://github.com/user-attachments/assets/a3c60c08-a275-4a92-b2af-ccb29fa1c28b" alt="Notifications" width="250"/> | <img src="https://github.com/user-attachments/assets/16bc34d7-91e0-4157-9824-de9325fe900b" alt="Rewards Screen" width="250"/> | <img src="https://github.com/user-attachments/assets/bda596f4-ed76-4f33-a447-a6d189b3f509" alt="Store Locator" width="250"/> |
-| **Payment Methods** | **Order History** | **Settings** |
-| <img src="https://github.com/user-attachments/assets/9e52695d-bcae-4904-a58b-ee9be7cde6f9" alt="Payment Methods" width="250"/> | <img src="https://github.com/user-attachments/assets/fc2930b3-37df-450d-9dd0-7151c5675f2e" alt="Order History" width="250"/> | <img src="https://github.com/user-attachments/assets/945c70ce-fd7b-4621-a70e-88675bfdd780" alt="Settings" width="250"/> |
-| **Help & Support** | | |
-| <img src="https://github.com/user-attachments/assets/0a4bb988-3692-4e2e-b448-fb32d7b0d222" alt="Help & Support" width="250"/> | | |
+| <img src="https://github.com/user-attachments/assets/08dbcddc-1b3e-4131-8b86-b8ac73da3b1e" alt="Layar Beranda" width="250"/> | <img src="https://github.com/user-attachments/assets/192cbc63-b955-4f1e-922d-75d50ea493df" alt="Layar Pesanan" width="250"/> | <img src="https://github.com/user-attachments/assets/d1155f8e-df50-4c3c-aa99-0c8cea86d156" alt="Detail Produk" width="250"/> |
+| **Layar Keranjang** | **Pemindai QR** | **Layar Profil** |
+| <img src="https://github.com/user-attachments/assets/1ee24a22-d60a-494c-a21b-d8dd554d54ec" alt="Layar Keranjang" width="250"/> | <img src="https://github.com/user-attachments/assets/28fed553-d995-4271-b4bf-68d74bfea5ca" alt="Pemindai QR" width="250"/> | <img src="https://github.com/user-attachments/assets/f410e3b2-b7c2-43fa-b298-d9d16f178dc8" alt="Layar Profil" width="250"/> |
+| **Notifikasi** | **Layar Hadiah** | **Pencari Toko** |
+| <img src="https://github.com/user-attachments/assets/a3c60c08-a275-4a92-b2af-ccb29fa1c28b" alt="Notifikasi" width="250"/> | <img src="https://github.com/user-attachments/assets/16bc34d7-91e0-4157-9824-de9325fe900b" alt="Layar Hadiah" width="250"/> | <img src="https://github.com/user-attachments/assets/bda596f4-ed76-4f33-a447-a6d189b3f509" alt="Pencari Toko" width="250"/> |
+| **Metode Pembayaran** | **Riwayat Pesanan** | **Pengaturan** |
+| <img src="https://github.com/user-attachments/assets/9e52695d-bcae-4904-a58b-ee9be7cde6f9" alt="Metode Pembayaran" width="250"/> | <img src="https://github.com/user-attachments/assets/fc2930b3-37df-450d-9dd0-7151c5675f2e" alt="Riwayat Pesanan" width="250"/> | <img src="https://github.com/user-attachments/assets/945c70ce-fd7b-4621-a70e-88675bfdd780" alt="Pengaturan" width="250"/> |
+| **Bantuan & Dukungan** | **Favorit** | |
+| <img src="https://github.com/user-attachments/assets/0a4bb988-3692-4e2e-b448-fb32d7b0d222" alt="Bantuan & Dukungan" width="250"/> | <img src="https://placehold.co/300x650/0D1B2A/FFFFFF?text=Favorit" alt="Favorit" width="250"/> | |
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Tumpukan Teknologi & Arsitektur
 
-This project is built with a modern Android technology stack, emphasizing simplicity, scalability, and testability.
+Proyek ini dibangun dengan tumpukan teknologi Android modern, yang menekankan kesederhanaan, skalabilitas, dan kemudahan pengujian.
 
-- **Language**: [**Kotlin**](https://kotlinlang.org/)
-- **UI Framework**: [**Jetpack Compose**](https://developer.android.com/jetpack/compose) for a declarative and reactive UI.
-- **Architecture**: **MVVM (Model-View-ViewModel)**
-  - **View**: Composable functions in `MainActivity.kt` that observe state.
-  - **ViewModel**: `StarbucksViewModel.kt` holds all business logic and exposes UI state using `State<T>`, `mutableStateListOf`, and `derivedStateOf`.
-  - **Model**: Data classes (`User`, `Product`, `Order`, etc.) located in the `data` package.
-- **State Management**: Uses Compose's native state holders (`remember`, `mutableStateOf`) and ViewModel state exposure patterns.
-- **Asynchronous Operations**: [**Kotlin Coroutines**](https://kotlinlang.org/docs/coroutines-overview.html) and [**Flow**](https://kotlinlang.org/docs/flow.html) for managing background tasks, with a `Channel` for one-off events like showing a Snackbar.
-- **Camera**: [**CameraX**](https://developer.android.com/training/camerax) for a lifecycle-aware camera API.
-- **Machine Learning**: [**Google ML Kit Vision**](https://developers.google.com/ml-kit/vision/barcode-scanning) for fast and reliable QR code scanning.
-- **UI Components**: [**Material 3**](https://m3.material.io/) for modern UI components, icons, and theming (`lightColorScheme`, `darkColorScheme`).
-- **Animations**: Utilizes Compose's built-in Animation APIs (`AnimatedVisibility`, `animateIntAsState`, `AnimatedContent`) for a fluid user experience.
+- **Bahasa**: [**Kotlin**](https://kotlinlang.org/)
+- **Kerangka Kerja UI**: [**Jetpack Compose**](https://developer.android.com/jetpack/compose) untuk UI deklaratif dan reaktif.
+- **Arsitektur**: **MVVM (Model-View-ViewModel)**
+  - **View**: Fungsi Composable di `MainActivity.kt` yang mengamati keadaan.
+  - **ViewModel**: `StarbucksViewModel.kt` menyimpan semua logika bisnis dan mengekspos keadaan UI menggunakan `State<T>`, `mutableStateListOf`, dan `derivedStateOf`.
+  - **Model**: Kelas data (`User`, `Product`, `Order`, dll.) yang terletak di paket `data`.
+- **Manajemen Keadaan**: Menggunakan penampung keadaan asli dari Compose (`remember`, `mutableStateOf`) dan pola eksposur keadaan ViewModel.
+- **Operasi Asinkron**: [**Kotlin Coroutines**](https://kotlinlang.org/docs/coroutines-overview.html) dan [**Flow**](https://kotlinlang.org/docs/flow.html) untuk mengelola tugas latar belakang, dengan `Channel` untuk peristiwa satu kali seperti menampilkan Snackbar.
+- **Kamera**: [**CameraX**](https://developer.android.com/training/camerax) untuk API kamera yang sadar akan siklus hidup.
+- **Pembelajaran Mesin**: [**Google ML Kit Vision**](https://developers.google.com/ml-kit/vision/barcode-scanning) untuk pemindaian kode QR yang cepat dan andal.
+- **Komponen UI**: [**Material 3**](https://m3.material.io/) untuk komponen UI modern, ikon, dan tema (`lightColorScheme`, `darkColorScheme`).
+- **Animasi**: Memanfaatkan API Animasi bawaan dari Compose (`AnimatedVisibility`, `animateIntAsState`, `AnimatedContent`) untuk pengalaman pengguna yang lancar.
 
 ---
 
-## 📂 Code Structure
+## 📂 Struktur Kode
 
-The code is organized following standard MVVM practices.
+Kode diatur mengikuti praktik MVVM standar.
 
 ```
 .
 ├── 📄 com.example.starbuckmembership
 │
-├── 🏠 data             # Data models (Product, User, Order, etc.)
+├── 🏠 data             # Model data (Produk, Pengguna, Pesanan, dll.)
 │
 ├── 🧠 viewmodel
-│   └── StarbucksViewModel.kt  # Handles all logic and state management
+│   └── StarbucksViewModel.kt  # Menangani semua logika dan manajemen keadaan
 │
-└── 🎨 MainActivity.kt      # Main entry point, permission handling, and all UI Composables
+└── 🎨 MainActivity.kt      # Titik masuk utama, penanganan izin, dan semua UI Composable
 ```
-- **`MainActivity.kt`**: The single activity that hosts the entire Jetpack Compose application. It is responsible for requesting camera permissions and setting up the main `StarbucksApp` composable, which acts as the navigation host. All screens and UI components are defined here as `@Composable` functions.
-- **`StarbucksViewModel.kt`**: The core of the application's logic. It manages the state for every feature—from user data and product lists to the contents of the shopping cart. All user actions (e.g., adding to cart, placing an order, toggling a theme) are handled by functions within this ViewModel.
-- **`data` package**: Contains all the Kotlin `data class` definitions that model the application's data, such as `Product`, `User`, `Order`, `Reward`, and `Store`.
+- **`MainActivity.kt`**: Aktivitas tunggal yang menampung seluruh aplikasi Jetpack Compose. Bertanggung jawab untuk meminta izin kamera dan menyiapkan composable `StarbucksApp` utama, yang berfungsi sebagai host navigasi. Semua layar dan komponen UI didefinisikan di sini sebagai fungsi `@Composable`.
+- **`StarbucksViewModel.kt`**: Inti dari logika aplikasi. Mengelola keadaan untuk setiap fitur—mulai dari data pengguna dan daftar produk hingga isi keranjang belanja. Semua tindakan pengguna (misalnya, menambahkan ke keranjang, melakukan pemesanan, mengganti tema) ditangani oleh fungsi-fungsi di dalam ViewModel ini.
+- **`data` package**: Berisi semua definisi `data class` Kotlin yang memodelkan data aplikasi, seperti `Product`, `User`, `Order`, `Reward`, dan `Store`.
 
 ---
 
-## 🚀 How to Run
+## 🚀 Cara Menjalankan
 
-To get this project running on your local machine, follow these steps:
+Untuk menjalankan proyek ini di mesin lokal Anda, ikuti langkah-langkah berikut:
 
-1.  **Clone the repository:**
+1.  **Kloning repositori:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone [https://github.com/username-anda/nama-repositori-anda.git](https://github.com/username-anda/nama-repositori-anda.git)
     ```
-2.  **Open in Android Studio:**
-    -   Open Android Studio (preferably the latest stable version).
-    -   Click on `File > Open` and select the cloned project folder.
-3.  **Build the Project:**
-    -   Let Android Studio sync the Gradle files.
-    -   Build the project by clicking `Build > Make Project` or using the hammer icon.
-4.  **Run the App:**
-    -   Select an emulator or a physical device.
-    -   Click the `Run` button (green play icon).
-    -   **Note**: The QR code scanner feature requires camera access. You will be prompted to grant this permission when you first try to use the camera.
+2.  **Buka di Android Studio:**
+    -   Buka Android Studio (sebaiknya versi stabil terbaru).
+    -   Klik `File > Open` dan pilih folder proyek yang telah dikloning.
+3.  **Bangun Proyek:**
+    -   Biarkan Android Studio menyinkronkan file Gradle.
+    -   Bangun proyek dengan mengklik `Build > Make Project` atau menggunakan ikon palu.
+4.  **Jalankan Aplikasi:**
+    -   Pilih emulator atau perangkat fisik.
+    -   Klik tombol `Run` (ikon putar hijau).
+    -   **Catatan**: Fitur pemindai kode QR memerlukan akses kamera. Anda akan diminta untuk memberikan izin ini saat pertama kali mencoba menggunakan kamera.
 
 ---
 
-## 📄 License
+## 📄 Lisensi
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file [LICENSE](LICENSE) untuk detailnya.
 
 ```
-Copyright (c) 2024 [Your Name]
+Hak Cipta (c) 2024 [Nama Anda]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Izin dengan ini diberikan, secara gratis, kepada siapa pun yang memperoleh salinan
+perangkat lunak ini dan file dokumentasi terkait ("Perangkat Lunak"), untuk berurusan
+dengan Perangkat Lunak tanpa batasan, termasuk tanpa batasan hak
+untuk menggunakan, menyalin, mengubah, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan/atau menjual
+salinan Perangkat Lunak, dan untuk mengizinkan orang yang menerima Perangkat Lunak untuk
+melakukannya, dengan tunduk pada ketentuan berikut:
 ...
