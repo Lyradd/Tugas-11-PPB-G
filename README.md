@@ -42,7 +42,7 @@ Aplikasi ini menyimulasikan fungsionalitas inti dari program Starbucks Rewards, 
 | **Metode Pembayaran** | **Riwayat Pesanan** | **Pengaturan** |
 | <img src="https://github.com/user-attachments/assets/9e52695d-bcae-4904-a58b-ee9be7cde6f9" alt="Metode Pembayaran" width="250"/> | <img src="https://github.com/user-attachments/assets/fc2930b3-37df-450d-9dd0-7151c5675f2e" alt="Riwayat Pesanan" width="250"/> | <img src="https://github.com/user-attachments/assets/945c70ce-fd7b-4621-a70e-88675bfdd780" alt="Pengaturan" width="250"/> |
 | **Bantuan & Dukungan** | **Favorit** | |
-| <img src="https://github.com/user-attachments/assets/0a4bb988-3692-4e2e-b448-fb32d7b0d222" alt="Bantuan & Dukungan" width="250"/> | <img src="https://placehold.co/300x650/0D1B2A/FFFFFF?text=Favorit" alt="Favorit" width="250"/> | |
+| <img src="https://github.com/user-attachments/assets/0a4bb988-3692-4e2e-b448-fb32d7b0d222" alt="Bantuan & Dukungan" width="250"/> | <img src="https://github.com/user-attachments/assets/3f17f121-d5f9-4a14-a265-9e82479dc43b" alt="Favorit" width="250"/> | |
 
 ---
 
